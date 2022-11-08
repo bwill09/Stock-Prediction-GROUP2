@@ -77,7 +77,7 @@ There were three datasets we used and all three had the same columns present.  T
 For our model we chose to use the open and the close price as our features for predicting future prices.  We felt that these two variables would be best suited for our model because it would allow for accurate prediction.
 
 ### Training & Testing
-Since we used a linear regression model to predict future stock price, we do not have formal training and testing data. Rather we have several bivariate charts depicting the data and the data itself being used to create the regression model.
+For our linear regression model we chose to do a 70/30 split of training and testing data.  Also as part of the training and testing of the linear model we examined the open and closing price of stocks through time to begin determining how best to apply the linear model.
 
 ### Model Choice
 Linear Regression Model
