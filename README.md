@@ -12,10 +12,10 @@
 
 
 ## Topic
-Examining Stocks Data and predicting future stock price using the S&P ETF SPY as well as energy sector stock price using Energy ETF VDE. For further analysis, we will be looking at possible trends among healthcare and energy stocks from 2001 to 2021 and how they performed during the two large market crashes of 2008 and 2020. 
+Examining Stocks Data and predicting future stock price using the S&P ETF SPY as well as energy sector stock price using Energy ETF VDE. For further analysis, we will be looking at possible trends among healthcare and energy stocks from 2004 to 2021 and how they performed during the two large market crashes of 2008 and 2020. 
 
 ## Reasoning
-We were interested in looking at whether it is possible to predict stocks trends to maximize return on investment. 
+We were interested in looking at whether it is possible to predict stock trends to maximize return on investment. 
 
 
 ## Datasource
@@ -24,7 +24,7 @@ The data we are using is a dataset of historical prices of S&P 500 ETF called SP
 
 ## Question(s) to answer
 
-Can we use a linear regression model to predict stock trends in the S&P and energy sector?
+Can we use a linear regression model to predict stock trends in the S&P, energy and healthcare sector?
 
 Is there a pattern between stock price of energy and healthcare ETFs during the two stock market crashes? 
 
@@ -38,9 +38,6 @@ For this project the technologies that we will be using is the Pandas library in
 Our data source are CSV files. As such, we will convert them to a dataframe using Pandas library in Python.  We will be storing the data in a SQL database and the schema for which is included as stock_schema.sql.  In this database are two of the tables that are to be used during this project.  We will be providing an ERD since this is a SQL database.
 
 ## Dashboard
-
-Here is a [blueprint](https://docs.google.com/presentation/d/15kHQnJc_2GsDRrfdE_IaHAt-SrYSOuP0bfhOl7A9YYk/edit#slide=id.p
-) for the dashboard.
 
 [gSlides](https://docs.google.com/presentation/d/1SRz74vQcFuJRuRonviLgewAgyzgCDq6IKz8qauUFQis/edit#slide=id.g177efd8d880_2_5) for our presentation 
 
@@ -68,8 +65,6 @@ Is this a regression problem, a classification problem, or a combination of the 
 
 - We also started our machine learning code. At the moment, we used a linear regression, which is included as the [Final_Project_Code.ipynb](https://github.com/bwill09/Stock-Prediction-Group2/blob/main/Final%20Project%20Code.ipynb) Currently, the model allows a user to input the Open price, High price, and Low price to predict the Close price. We started off with this to test our initial machine learning code. We intend to further this analysis by performing a linear regression using imblearn. We ran into some technical issues during some of the iterations of performing imblearn linear regression. For the purpose of submission, we simplified it using sklearn regression, but we will further troubleshoot the imblearn linear regression. 
 
-- In the event that our machine learning code remains with sklearn regression, we have discussed the possibility of creating an interactive component where a user can input the Open price, High price, and Low price of the SPY ETF stock price to predict the Close price. This would be done using HTML, Javascript, and Flask.
-
 ### Data preprocessing
 There were three datasets we used and all three had the same columns present.  These included Date, open, high, low, close, adjusted close and volume.  Since these datasets comprise a small number of columns there is no need to drop unuseful columns.  Another piece of data preprocessing that could be done but for this analysis does not need to be is to change the column values from decimal numbers to whole numbers. We used the loc method for the Healthcare and Energy ETF datasets to analyze the Open price and Close price from the years 2004 to 2021. We graphed both lines on the same graph initially, but found that the lines overlayed on top of one another. As such, we intend to make four separate charts to better visualize this data. We also had a discussion whether to use the Close Price or Adjusted Close Price. Upon initial analysis, we may change our variable.
 
@@ -91,7 +86,8 @@ Limitations
 1. Not complex
 2. Can tell you about a relationship between two variables but does not go deeper than that to give more insight.  Additional tests and statistical analyses are sometimes needed.
 
-
+### Future recommendations
+- In the event that our machine learning code remains with sklearn regression, we have discussed the possibility of creating an interactive component where a user can input the Open price, High price, and Low price of the SPY ETF stock price to predict the Close price. This would be done using HTML, Javascript, and Flask.
 
 
 
