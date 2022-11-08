@@ -42,9 +42,9 @@ Our data source are CSV files. As such, we will convert them to a dataframe usin
 Here is a [blueprint](https://docs.google.com/presentation/d/15kHQnJc_2GsDRrfdE_IaHAt-SrYSOuP0bfhOl7A9YYk/edit#slide=id.p
 ) for the dashboard.
 
-Here is a [draft gSlide](https://docs.google.com/presentation/d/1SRz74vQcFuJRuRonviLgewAgyzgCDq6IKz8qauUFQis/edit#slide=id.g177efd8d880_2_5) for our presentation 
+[gSlides](https://docs.google.com/presentation/d/1SRz74vQcFuJRuRonviLgewAgyzgCDq6IKz8qauUFQis/edit#slide=id.g177efd8d880_2_5) for our presentation 
 
-[Here is a link to a Tableau Dashboard:](https://public.tableau.com/views/StockAnalysis_16675294030350/StockComparisonDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+[Tableau Dashboard:](https://public.tableau.com/views/StockAnalysis_16675294030350/StockComparisonDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
 ## Machine Learning Model 
