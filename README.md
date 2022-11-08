@@ -39,7 +39,7 @@ Our data source are CSV files. As such, we will convert them to a dataframe usin
 
 ## Dashboard
 
-[gSlides](https://docs.google.com/presentation/d/1SRz74vQcFuJRuRonviLgewAgyzgCDq6IKz8qauUFQis/edit#slide=id.g177efd8d880_2_5) for our presentation 
+[gSlides](https://docs.google.com/presentation/d/1SRz74vQcFuJRuRonviLgewAgyzgCDq6IKz8qauUFQis/edit#slide=id.g177efd8d880_2_5) 
 
 [Tableau Dashboard:](https://public.tableau.com/views/StockAnalysis_16675294030350/StockComparisonDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
